@@ -1,0 +1,6 @@
+{
+  "name": "Camera App",
+  "description": "A straightforward camera application demonstrating CameraX.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
