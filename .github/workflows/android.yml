@@ -21,12 +21,6 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x gradlew
 
-      - name: Download Gradle wrapper JAR
-        run: |
-          cd gradle/wrapper
-          curl -L https://services.gradle.org/distributions/gradle-9.3.1-wrapper.jar -o gradle-wrapper.jar
-          cd ../..
-
       - name: Build APK
         run: ./gradlew assembleDebug
 
